@@ -1,0 +1,90 @@
+body {
+    width: 1024px;
+    height: 5008px;
+    background-color: #000028;
+}
+
+.header {
+    width: 1024px;
+    height: 768px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
+}
+
+.theme {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 20px;
+    left: 397px;
+    width: 230px;
+    height: 26px;
+}
+
+.theme-text {
+    color: #FF0070;
+    line-height: 18px;
+    text-align: center;
+    size: 18px;
+    font-weight: 400;
+}
+
+.day {
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    top: 20px;
+    left: 397px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+.auto {
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    top: 20px;
+    left: 477px;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+.neon {
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    top: 20px;
+    left: 557px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: 1px solid #FF0070;
+}
+
+.focus {
+    position: relative;
+    width: 759px;
+    height: 130px;
+    top:  319px;
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 129.53px;
+    color: #DB00FF;
+    text-shadow: 4px 4px 0px #FF0070;
+}
+
+.title {
+    display: flex;
+    position: relative;
+    width: 491px;
+    height: 70px;
+    top: 563px;
+    left: 513px;
+    background-color: #FF0070;
+}
+
+.title > p {
+    color: #000028;
+    height: 71px;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 23.4px;
+}
