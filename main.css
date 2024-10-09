@@ -33,8 +33,6 @@ body {
 .theme {
     display: flex;
     justify-content: center;
-    width: 230px;
-    height: 26px;
 }
 
 
@@ -68,9 +66,9 @@ button:hover {
     justify-content: center;
     font-family: "IBM Plex Mono", sans-serif;
     position: absolute;
-    width: 759px;
+    /*width: 759px;
     height: 130px;
-    /*top:  319px;*/
+    top:  319px;*/
     font-weight: 700;
     font-size: 157px;
     line-height: 129.53px;
