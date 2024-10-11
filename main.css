@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    position: relative;
     display: flex;
     justify-content: center;
 
@@ -22,8 +23,13 @@ body {
 }
 
 .header {
+    position: absolute;
     width: 1024px;
     height: 768px;
+    left: 0px;
+    top: 0px;
+
+
 
     background-image: url(https://www.figma.com/file/qcKarr7T5SHXhjwn3PQ2lg/image/dfd0bddab7b566964fd701840768cd9eecd5ea42);
     background-size: cover;
@@ -31,22 +37,28 @@ body {
 
 
 .theme {
+    position: relative;
+    top: 21.5px;
     display: flex;
     justify-content: center;
 }
 
 
 button {
+
     width: 70px;
     height: 26px;
+
     padding-right: 13px;
     padding-left: 13px;
+
     font-family: "IBM Plex Mono", sans-serif;
     color: #FF0070;
     line-height: 18px;
     text-align: center;
-    size: 18px;
+    font-size: 18px;
     font-weight: 400;
+
     background-color: rgba(28,28,28,0);
     border: none;
     outline: none;
@@ -62,18 +74,23 @@ button:hover {
 }
 
 .focus {
-    display: flex;
-    justify-content: center;
-    font-family: "IBM Plex Mono", sans-serif;
     position: absolute;
-    /*width: 759px;
+    width: 759px;
     height: 130px;
-    top:  319px;*/
+    left: 0px;
+    top: 319px;
+    margin: 0;
+
+    font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 700;
     font-size: 157px;
-    line-height: 129.53px;
+    line-height: 129.525px;
+
+
     color: #DB00FF;
+
     text-shadow: 4px 4px 0px #FF0070;
+
 }
 
 .title {
@@ -93,41 +110,23 @@ button:hover {
 
 
 .rec {
-    position: relative;
-    width: 33px;
-    height: 26px;
-    top: 20px;
-    left: 943px;
-    color: #FF0070;
-}
-
-.rec > p {
-    font-family: "IBM Plex Mono", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: center;
-
-}
-
-.rec::after {
-    display: flex;
     position: absolute;
-    content: "";
-    box-sizing: border-box;
-    border-radius: 50%;
-    width: 9px;
-    height: 9px;
-    background-color: #FF0070
+    top: 20px;
+    right: 20px;
+
 }
 
-/* Ellipse 4 
+.b1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
 
-position: absolute;
-width: 9px;
-height: 9px;
-left: 986px;
-top: 28px;
+    border-top: 1px solid #FF0070;
+    border-right: 1px solid #FF0070;
+}
 
-background: #FF0070;
-box-shadow: 0px 0px 4px 2px #FF0070;*/
+
+
+
