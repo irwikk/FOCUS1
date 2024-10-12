@@ -17,13 +17,13 @@ html {
 body {
     display: flex;
     justify-content: center;
-    height: 5008px;
+    height: 768px;
     width: 1024px;
 
     background-color: #000028;
 }
 
-.header {
+header {
     position: absolute;
     width: 1024px;
     height: 768px;
@@ -117,6 +117,12 @@ button:hover {
 
 }
 
+main {
+    width: 1024px;
+    height: 3352px;
+    top: 828px;
+}
+
 .b1 {
     position: absolute;
     top: 20px;
@@ -142,7 +148,10 @@ button:hover {
 .s2 {
     position: relative;
     display: flex;
-    
+    flex-wrap: wrap;
+    width: 1024px;
+    height: 3352px;
+    top: 828px;
 }
 
 .s2 > p {
@@ -169,15 +178,21 @@ button:hover {
     font-weight: 700;
     line-height: 23.4px;
     text-align: left;
-
 }
 
 .d2 > p {
+    width: 649px;
+    height: 23px;
     color: #000028;
     background: #FF0070;
 }
 
-.s1 {
+.sp1 {
+    width: 648.92px;
+    height: 244px;
+    left: 354.89px;
+    padding: 0px;
+
     color: #F1B2CE;
     font-weight: 400;
 }
