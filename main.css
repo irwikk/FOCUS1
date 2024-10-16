@@ -347,4 +347,47 @@ a:visited {
     color: #F1B2CE;
 }
 
+.s5img > p {
+    width: 984px;
+    height: 23px;
+
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    text-align: left;
+
+    
+    color: #000028;
+    background-color: #FF0070;
+}
+
+.g {
+    display: grid;
+    grid-template-columns: repeat(4, 1em);
+    grid-template-rows: repeat(4, 1em);
+}
+
+.img1 {
+    grid-column: 1/span 1;
+    grid-row: 1/span 2;
+}
+
+.img2 {
+    grid-column: 2/span 2;
+    grid-row: ;
+}
+
+.img3 {
+    
+}
+
+.img4 {
+    
+}
+
+.img5 {
+    
+}
+
 
