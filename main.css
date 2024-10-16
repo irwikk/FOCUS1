@@ -100,7 +100,7 @@ button:hover {
     display: flex;
     position: relative;
     width: 491px;
-    top: 563px;
+    top: 535px;
     left: 513px;
     background-color: #FF0070;
     font-family: "IBM Plex Mono", sans-serif;
@@ -151,6 +151,8 @@ main {
 }
 
 .s2 {
+    position: absolute;
+
     display: flex;
     flex-wrap: wrap;
     width: 1024px;
@@ -194,7 +196,6 @@ main {
 }
 
 .sp1 {
-
     width: 648.92px;
     height: 244px;
     padding: 0;
@@ -204,15 +205,13 @@ main {
 }
 
 a {
-    color: #FF0070;
+    text-shadow: 1px 1px 0 #FF0070;
+    color: #F1B2CE;
     outline: none;
     text-decoration: none;
 
 }
 
-a:visited {
-    color: #FF0070;
-}
 
 .sc2 {
     height: 578px;
@@ -220,7 +219,8 @@ a:visited {
 }
 
 .s3 {
-    
+    position: absolute;
+
     display: flex;
     flex-direction: column;
 
@@ -243,6 +243,8 @@ a:visited {
     width: 315px;
     height: 47px;
     left: 20px;
+
+    margin: 0;
 }
 
 .d3 {
@@ -262,6 +264,8 @@ a:visited {
 
     color: #000028;
     background-color: #FF0070;
+
+    margin-top: 0;
 }
 
 .sp2 {
@@ -279,13 +283,14 @@ a:visited {
 }
 
 .sc3 {
-    position: relative;
+    
     height: 1095px;
     padding: 0 20px 80px 20px;
 }
 
 .s4 {
-    
+    position: absolute;
+
     display: flex;
 
     width: 1024px;
@@ -347,6 +352,21 @@ a:visited {
     color: #F1B2CE;
 }
 
+.sc4img {
+    position: relative;
+    
+    height: 1151px;
+    padding: 0 20px 60px 20px;
+}
+
+.s5img {
+    position: absolute;
+
+    width: 1024px;
+    height: 3352px;
+    top: 828px;
+}
+
 .s5img > p {
     width: 984px;
     height: 23px;
@@ -364,30 +384,67 @@ a:visited {
 
 .g {
     display: grid;
-    grid-template-columns: repeat(4, 1em);
-    grid-template-rows: repeat(4, 1em);
+    grid-template-areas: 'one one two'
+                        'three FOOUR two'
+                        'three five five';
+    gap: 20px;
 }
 
 .img1 {
-    grid-column: 1/span 1;
-    grid-row: 1/span 2;
+    grid-area: one;
 }
 
 .img2 {
-    grid-column: 2/span 2;
-    grid-row: ;
+    grid-area: two;
 }
 
 .img3 {
-    
+    grid-area: three;
 }
 
 .img4 {
-    
+    grid-area: FOOUR;
 }
 
 .img5 {
+    grid-area: five;
+}
+
+.sc6 {
+    height: 768px;
+    padding: 20px;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+
+    width: 1024px;
+    height: 768px;
+    top: 4240px;
     
+    display: flex;
+    justify-content: center;
+}
+
+.no_focus {
+    position: absolute;
+
+    width: 471px;
+    height: 130px;
+    top: 319px;
+    left: 277px;
+    margin: 0;
+
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 157px;
+    font-weight: 700;
+    line-height: 129.53px;
+    text-align: left;
+
+    color: #DB00FF;
+
+    text-shadow: 2px 2px 0 #FF0070;
 }
 
 
