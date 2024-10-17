@@ -146,7 +146,7 @@ main {
 }
 
 .sc1 {
-    height: 648px;
+    height: 508px;
     padding: 60px 20px 80px 20px;
 }
 
@@ -154,12 +154,9 @@ main {
     position: absolute;
 
     display: flex;
-    flex-wrap: wrap;
-    width: 1024px;
+    gap: 20px;
     
     top: 828px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .s2 > p {
@@ -214,7 +211,7 @@ a {
 
 
 .sc2 {
-    height: 578px;
+    height: 498px;
     padding: 0 20px 80px 20px;
 }
 
@@ -222,6 +219,7 @@ a {
     position: absolute;
 
     display: flex;
+    gap: 20px;
     flex-direction: column;
 
     width: 1024px;
@@ -283,8 +281,7 @@ a {
 }
 
 .sc3 {
-    
-    height: 1095px;
+    height: 1015px;
     padding: 0 20px 80px 20px;
 }
 
@@ -292,6 +289,7 @@ a {
     position: absolute;
 
     display: flex;
+    gap: 20px;
 
     width: 1024px;
     height: 1015px;
@@ -355,15 +353,12 @@ a {
 .sc4img {
     position: relative;
     
-    height: 1151px;
+    height: 1091px;
     padding: 0 20px 60px 20px;
 }
 
 .s5img {
-    position: absolute;
-
     width: 1024px;
-    height: 3352px;
     top: 828px;
 }
 
@@ -417,7 +412,6 @@ a {
 }
 
 footer {
-    position: absolute;
 
     width: 1024px;
     height: 768px;
